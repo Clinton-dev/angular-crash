@@ -22,8 +22,13 @@ export class TasksComponent implements OnInit {
   }
 
   toggleTask(task:Task) {
-
     task.reminder = !task.reminder;
-    this.taskService.toggleTask(task).subscribe()
+    this.taskService.toggleTask(task).subscribe();
   }
+
+  addTask(task: Task) {
+    this.taskService.addTask(task).subscribe((task) => this.tasks.push(task));
+  }
+
+  // Todo - add update to individual task
 }

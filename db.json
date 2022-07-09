@@ -23,6 +23,18 @@
       "text": "Clothes Shopping",
       "day": "May 15th at 4:30pm",
       "reminder": false
+    },
+    {
+      "text": "new test task",
+      "day": "today 8:30pm",
+      "reminder": true,
+      "id": 5
+    },
+    {
+      "text": "wash car",
+      "day": "",
+      "reminder": false,
+      "id": 6
     }
   ]
 }
